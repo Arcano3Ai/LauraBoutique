@@ -1,0 +1,205 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --cream: #F7F2EA;
+    --cream-light: #FDFBF7;
+    --warm-white: #FFFFFF;
+    --charcoal: #292725;
+    --charcoal-light: #3D3A37;
+    --soft-gold: #B99663;
+    --soft-gold-hover: #A38250;
+    --beige: #DCCFBD;
+    --beige-light: #ECE5DC;
+    --taupe: #A99B8B;
+    --taupe-light: #C4B9AD;
+    --muted-terracotta: #C48B71;
+    --font-serif: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Montserrat', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  * {
+    border-color: var(--beige);
+  }
+
+  body {
+    background-color: var(--cream);
+    color: var(--charcoal);
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    selection-background-color: var(--soft-gold);
+    selection-color: var(--warm-white);
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: var(--font-serif);
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Custom Utilities for Laura Boutique Theme */
+.bg-cream {
+  background-color: var(--cream);
+}
+.bg-cream-light {
+  background-color: var(--cream-light);
+}
+.bg-warm-white {
+  background-color: var(--warm-white);
+}
+.bg-charcoal {
+  background-color: var(--charcoal);
+}
+.bg-soft-gold {
+  background-color: var(--soft-gold);
+}
+.bg-beige {
+  background-color: var(--beige);
+}
+.bg-taupe {
+  background-color: var(--taupe);
+}
+
+.text-charcoal {
+  color: var(--charcoal);
+}
+.text-soft-gold {
+  color: var(--soft-gold);
+}
+.text-taupe {
+  color: var(--taupe);
+}
+.text-cream {
+  color: var(--cream);
+}
+.text-terracotta {
+  color: var(--muted-terracotta);
+}
+
+.border-beige {
+  border-color: var(--beige);
+}
+.border-soft-gold {
+  border-color: var(--soft-gold);
+}
+.border-charcoal {
+  border-color: var(--charcoal);
+}
+
+/* Micro-interactions & animations */
+.hover-zoom-img {
+  transition: transform 0.7s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.group:hover .hover-zoom-img {
+  transform: scale(1.06);
+}
+
+.btn-editorial-primary {
+  background-color: var(--charcoal);
+  color: var(--warm-white);
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.875rem 1.75rem;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--charcoal);
+}
+.btn-editorial-primary:hover {
+  background-color: var(--soft-gold);
+  border-color: var(--soft-gold);
+  color: var(--warm-white);
+  box-shadow: 0 4px 15px rgba(185, 150, 99, 0.25);
+}
+
+.btn-editorial-secondary {
+  background-color: transparent;
+  color: var(--charcoal);
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.875rem 1.75rem;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--charcoal);
+}
+.btn-editorial-secondary:hover {
+  background-color: var(--charcoal);
+  color: var(--warm-white);
+}
+
+.btn-editorial-gold {
+  background-color: var(--soft-gold);
+  color: var(--warm-white);
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.875rem 1.75rem;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--soft-gold);
+}
+.btn-editorial-gold:hover {
+  background-color: var(--soft-gold-hover);
+  border-color: var(--soft-gold-hover);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--beige);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--taupe);
+}
+
+/* Shimmer / Skeleton Animation */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+.skeleton-shimmer {
+  background: linear-gradient(90deg, #ECE5DC 25%, #F7F2EA 50%, #ECE5DC 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Fade in subtle animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-in {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
