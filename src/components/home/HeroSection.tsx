@@ -17,23 +17,23 @@ export const HeroSection: React.FC = () => {
           {/* Left Column: Editorial Headlines & CTAs */}
           <div className="lg:col-span-6 flex flex-col justify-center text-left order-2 lg:order-1 space-y-7">
             
-            {/* Luxury Brand Emblem + Pill */}
-            <div className="flex items-center gap-4">
-              <div className="relative w-20 h-20 sm:w-24 sm:h-24 lg:w-26 lg:h-26 rounded-full overflow-hidden shadow-2xl border-2 border-[#B99663] bg-[#141312] shrink-0 hover:scale-105 transition-transform duration-500 ring-4 ring-[#B99663]/20">
+            {/* Luxury Brand Emblem - Bien Grande */}
+            <div className="flex flex-col sm:flex-row sm:items-center gap-5 sm:gap-6">
+              <div className="relative w-28 h-28 sm:w-36 sm:h-36 lg:w-40 lg:h-40 rounded-full overflow-hidden shadow-2xl border-3 border-[#B99663] bg-[#121110] shrink-0 hover:scale-105 transition-all duration-700 ring-8 ring-[#B99663]/25 group">
                 <img
                   src="/images/logo.jpg"
-                  alt="My Boutique More Logo"
-                  className="w-full h-full object-cover"
+                  alt="My Boutique More Logo Oficial"
+                  className="w-full h-full object-cover scale-105 group-hover:scale-110 transition-transform duration-700"
                 />
               </div>
-              <div className="space-y-1">
-                <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#FDFBF7] border border-[#B99663]/40 shadow-xs">
-                  <Sparkles className="w-3.5 h-3.5 text-[#B99663]" />
-                  <span className="text-[10px] sm:text-[11px] uppercase tracking-[0.25em] font-semibold text-[#1C1A18]">
-                    COLECCIÓN 2026
+              <div className="space-y-2">
+                <div className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-[#FDFBF7] border border-[#B99663]/50 shadow-xs">
+                  <Sparkles className="w-4 h-4 text-[#B99663]" />
+                  <span className="text-[11px] sm:text-xs uppercase tracking-[0.25em] font-bold text-[#1C1A18]">
+                    BOUTIQUE OFICIAL 2026
                   </span>
                 </div>
-                <p className="text-[10px] sm:text-xs text-[#A99B8B] tracking-[0.2em] uppercase font-medium">
+                <p className="text-xs sm:text-sm text-[#A99B8B] tracking-[0.25em] uppercase font-semibold">
                   Atemporal • Elegante • Accesible
                 </p>
               </div>

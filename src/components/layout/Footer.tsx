@@ -13,14 +13,14 @@ export const Footer: React.FC = () => {
         {/* Main Footer Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8 pb-12 border-b border-[#3D3A37]">
           
-          {/* Brand Presentation Column */}
+          {/* Brand Presentation Column - Logo Bien Grande */}
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" className="inline-flex items-center gap-4 group">
-              <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden shadow-2xl border-2 border-[#B99663] group-hover:scale-105 transition-all duration-300 bg-[#1A1918] shrink-0">
+              <div className="relative w-22 h-22 sm:w-26 sm:h-26 rounded-full overflow-hidden shadow-2xl border-2 border-[#B99663] group-hover:scale-105 transition-all duration-500 bg-[#121110] shrink-0 ring-4 ring-[#B99663]/25">
                 <img
                   src="/images/logo.jpg"
                   alt="My Boutique More Logo Oficial"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover scale-105"
                 />
               </div>
               <div>
