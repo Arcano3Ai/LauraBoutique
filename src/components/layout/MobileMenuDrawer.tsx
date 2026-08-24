@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { X, ChevronRight, ChevronDown, User, Heart, ShoppingBag, MessageCircle, Sparkles } from 'lucide-react';
 import { useStore } from '@/lib/store';
 
@@ -23,20 +24,23 @@ export const MobileMenuDrawer: React.FC = () => {
       {/* Backdrop */}
       <div
         onClick={closeMobileMenu}
-        className="fixed inset-0 bg-[#292725]/60 backdrop-blur-xs transition-opacity duration-300"
+        className="fixed inset-0 bg-black/40 backdrop-blur-xs transition-opacity"
       />
 
-      {/* Drawer */}
+      {/* Slide-out Panel */}
       <div className="fixed inset-y-0 left-0 max-w-xs w-full bg-[#FDFBF7] shadow-2xl flex flex-col justify-between overflow-y-auto animate-fade-in border-r border-[#DCCFBD]">
         {/* Drawer Header */}
         <div>
           <div className="p-4 border-b border-[#DCCFBD] flex items-center justify-between bg-[#F7F2EA]">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-full overflow-hidden border border-[#B99663] bg-[#1A1918] shrink-0">
-                <img
-                  src="/images/logo.jpg"
+              <div className="relative w-12 h-12 rounded-full overflow-hidden border border-[#B99663] bg-[#121110] shrink-0 shadow-sm">
+                <Image
+                  src="/images/logo.png"
                   alt="My Boutique More Logo"
+                  width={48}
+                  height={48}
                   className="w-full h-full object-cover"
+                  unoptimized
                 />
               </div>
               <div>

@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { Sparkles, ArrowRight } from 'lucide-react';
 import { useStore } from '@/lib/store';
@@ -19,8 +20,11 @@ export default function LoginPage() {
     e.preventDefault();
     if (!email.trim()) return;
 
-    login(email, 'Clienta My Boutique More');
-    toast('¡Bienvenida de vuelta a My Boutique More!', { type: 'success' });
+    login(email, 'Clienta');
+    toast('¡Bienvenida a My Boutique More!', {
+      type: 'success',
+      submessage: 'Has iniciado sesión correctamente'
+    });
     router.push('/account');
   };
 
@@ -30,11 +34,14 @@ export default function LoginPage() {
         
         {/* Header */}
         <div className="text-center mb-8">
-          <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-[#B99663] bg-[#1A1918] mx-auto mb-3 shadow-md">
-            <img
-              src="/images/logo.jpg"
+          <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-[#B99663] bg-[#121110] mx-auto mb-3 shadow-md">
+            <Image
+              src="/images/logo.png"
               alt="My Boutique More Logo"
+              width={64}
+              height={64}
               className="w-full h-full object-cover"
+              unoptimized
             />
           </div>
           <span className="text-[10px] uppercase tracking-[0.3em] text-[#B99663] font-semibold block mb-1">

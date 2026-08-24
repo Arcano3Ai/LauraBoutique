@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Mail, MessageCircle, ShieldCheck, Truck, RefreshCw, CreditCard } from 'lucide-react';
 import { InstagramIcon, FacebookIcon } from '@/components/ui/Icons';
 
@@ -16,11 +17,14 @@ export const Footer: React.FC = () => {
           {/* Brand Presentation Column */}
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" className="inline-flex items-center gap-4 group">
-              <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full overflow-hidden border border-[#3D3A37] group-hover:border-[#B99663] transition-all bg-[#121110] shrink-0 shadow-lg">
-                <img
-                  src="/images/logo.jpg"
+              <div className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-full overflow-hidden border border-[#3D3A37] group-hover:border-[#B99663] transition-all bg-[#121110] shrink-0 shadow-lg">
+                <Image
+                  src="/images/logo.png"
                   alt="My Boutique More Logo"
+                  width={64}
+                  height={64}
                   className="w-full h-full object-cover"
+                  unoptimized
                 />
               </div>
               <div>

@@ -7,6 +7,9 @@ import { Search, Heart, User as UserIcon, ShoppingBag, Menu, X, ChevronDown } fr
 import { useStore } from '@/lib/store';
 import { MegaMenu } from './MegaMenu';
 
+import Image from 'next/image';
+import { getAssetPath } from '@/lib/assets';
+
 export const Header: React.FC = () => {
   const pathname = usePathname();
   const [isScrolled, setIsScrolled] = useState(false);
@@ -78,11 +81,14 @@ export const Header: React.FC = () => {
           {/* Brand Logo */}
           <div className="flex-1 lg:flex-none text-center lg:text-left">
             <Link href="/" className="inline-flex items-center gap-3.5 group">
-              <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full overflow-hidden border border-[#DCCFBD] group-hover:border-[#B99663] transition-all bg-[#121110] shrink-0 shadow-sm">
-                <img
-                  src="/images/logo.jpg"
+              <div className="relative w-12 h-12 sm:w-14 sm:h-14 rounded-full overflow-hidden border border-[#DCCFBD] group-hover:border-[#B99663] transition-all bg-[#121110] shrink-0 shadow-sm">
+                <Image
+                  src="/images/logo.png"
                   alt="My Boutique More Logo"
+                  width={56}
+                  height={56}
                   className="w-full h-full object-cover"
+                  unoptimized
                 />
               </div>
               <div className="text-left">
