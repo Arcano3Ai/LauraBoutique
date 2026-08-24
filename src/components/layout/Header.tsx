@@ -75,21 +75,21 @@ export const Header: React.FC = () => {
             </button>
           </div>
 
-          {/* Brand Logo - Bien Grande */}
-          <div className="flex-1 lg:flex-none text-center lg:text-left py-1">
-            <Link href="/" className="inline-flex items-center gap-3 sm:gap-4 group">
-              <div className="relative w-16 h-16 sm:w-20 sm:h-20 lg:w-22 lg:h-22 rounded-full overflow-hidden shadow-2xl border-2 border-[#B99663] group-hover:scale-105 group-hover:border-[#D4AF77] transition-all duration-300 bg-[#121110] shrink-0 ring-4 ring-[#B99663]/20">
+          {/* Brand Logo */}
+          <div className="flex-1 lg:flex-none text-center lg:text-left">
+            <Link href="/" className="inline-flex items-center gap-3.5 group">
+              <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full overflow-hidden border border-[#DCCFBD] group-hover:border-[#B99663] transition-all bg-[#121110] shrink-0 shadow-sm">
                 <img
                   src="/images/logo.jpg"
-                  alt="My Boutique More Logo Oficial"
-                  className="w-full h-full object-cover scale-105"
+                  alt="My Boutique More Logo"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <div className="text-left">
-                <span className="font-editorial text-xl sm:text-2xl lg:text-3xl font-bold tracking-wider text-[#1C1A18] block group-hover:text-[#B99663] transition-colors leading-tight">
+                <span className="font-editorial text-2xl sm:text-3xl font-semibold tracking-wider text-[#292725] block group-hover:text-[#B99663] transition-colors leading-none">
                   MY BOUTIQUE MORE
                 </span>
-                <span className="text-[9px] sm:text-[11px] uppercase tracking-[0.25em] text-[#A99B8B] font-medium block mt-0.5">
+                <span className="text-[9px] sm:text-[10px] uppercase tracking-[0.3em] text-[#A99B8B] font-medium block mt-1">
                   Atemporal • Elegante • Accesible
                 </span>
               </div>
