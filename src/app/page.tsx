@@ -1,4 +1,5 @@
 import React from 'react';
+import { CinematicIntroModal } from '@/components/home/CinematicIntroModal';
 import { IntroVideoBanner } from '@/components/home/IntroVideoBanner';
 import { HeroSection } from '@/components/home/HeroSection';
 import { CategoriesSection } from '@/components/home/CategoriesSection';
@@ -15,6 +16,9 @@ import { NewsletterSection } from '@/components/home/NewsletterSection';
 export default function HomePage() {
   return (
     <main className="w-full">
+      {/* Modal de Intro Cinematográfico al entrar */}
+      <CinematicIntroModal />
+
       {/* 0. Video Fashion Film de Intro */}
       <IntroVideoBanner />
 
