@@ -77,13 +77,22 @@ export const Header: React.FC = () => {
 
           {/* Brand Logo */}
           <div className="flex-1 lg:flex-none text-center lg:text-left">
-            <Link href="/" className="inline-block group text-center">
-              <span className="font-editorial text-2xl sm:text-3xl lg:text-3xl font-semibold tracking-wider text-[#292725] block group-hover:text-[#B99663] transition-colors leading-none">
-                MY BOUTIQUE MORE
-              </span>
-              <span className="text-[9px] sm:text-[10px] uppercase tracking-[0.3em] text-[#A99B8B] font-medium block mt-1">
-                Atemporal • Elegante • Accesible
-              </span>
+            <Link href="/" className="inline-flex items-center gap-3 sm:gap-4 group">
+              <div className="relative w-13 h-13 sm:w-16 sm:h-16 lg:w-18 lg:h-18 rounded-full overflow-hidden shadow-lg border-2 border-[#B99663] group-hover:scale-105 group-hover:border-[#DCCFBD] transition-all duration-300 bg-[#1A1918] shrink-0">
+                <img
+                  src="/images/logo.jpg"
+                  alt="My Boutique More Logo"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="text-left">
+                <span className="font-editorial text-xl sm:text-2xl lg:text-2xl font-bold tracking-wider text-[#292725] block group-hover:text-[#B99663] transition-colors leading-tight">
+                  MY BOUTIQUE MORE
+                </span>
+                <span className="text-[9px] sm:text-[10px] uppercase tracking-[0.25em] text-[#A99B8B] font-medium block">
+                  Atemporal • Elegante • Accesible
+                </span>
+              </div>
             </Link>
           </div>
 

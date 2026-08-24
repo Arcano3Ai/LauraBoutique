@@ -15,13 +15,22 @@ export const Footer: React.FC = () => {
           
           {/* Brand Presentation Column */}
           <div className="lg:col-span-2 space-y-4">
-            <Link href="/" className="inline-block">
-              <span className="font-editorial text-2xl sm:text-3xl font-semibold tracking-wider text-[#FDFBF7] block leading-none">
-                MY BOUTIQUE MORE
-              </span>
-              <span className="text-[10px] uppercase tracking-[0.3em] text-[#B99663] font-medium block mt-1.5">
-                Atemporal • Elegante • Accesible
-              </span>
+            <Link href="/" className="inline-flex items-center gap-4 group">
+              <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden shadow-2xl border-2 border-[#B99663] group-hover:scale-105 transition-all duration-300 bg-[#1A1918] shrink-0">
+                <img
+                  src="/images/logo.jpg"
+                  alt="My Boutique More Logo Oficial"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div>
+                <span className="font-editorial text-2xl sm:text-3xl font-semibold tracking-wider text-[#FDFBF7] block leading-none group-hover:text-[#B99663] transition-colors">
+                  MY BOUTIQUE MORE
+                </span>
+                <span className="text-[10px] uppercase tracking-[0.3em] text-[#B99663] font-medium block mt-1.5">
+                  Atemporal • Elegante • Accesible
+                </span>
+              </div>
             </Link>
             <p className="text-xs text-[#A99B8B] leading-relaxed max-w-sm">
               Boutique mexicana contemporánea creada para mujeres que valoran la elegancia, la comodidad y las prendas que trascienden las temporadas sin costar una fortuna.

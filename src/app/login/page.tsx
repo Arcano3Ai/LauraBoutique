@@ -30,6 +30,13 @@ export default function LoginPage() {
         
         {/* Header */}
         <div className="text-center mb-8">
+          <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-[#B99663] bg-[#1A1918] mx-auto mb-3 shadow-md">
+            <img
+              src="/images/logo.jpg"
+              alt="My Boutique More Logo"
+              className="w-full h-full object-cover"
+            />
+          </div>
           <span className="text-[10px] uppercase tracking-[0.3em] text-[#B99663] font-semibold block mb-1">
             My Boutique More
           </span>

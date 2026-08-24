@@ -13,12 +13,21 @@ export const HeroSection: React.FC = () => {
           {/* Left Column: Editorial Headlines & CTAs */}
           <div className="lg:col-span-5 flex flex-col justify-center text-left order-2 lg:order-1 space-y-6">
             
-            {/* Small Brand Pill */}
-            <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#FDFBF7] border border-[#DCCFBD] w-fit shadow-xs">
-              <Sparkles className="w-3.5 h-3.5 text-[#B99663]" />
-              <span className="text-[10px] uppercase tracking-[0.25em] font-semibold text-[#292725]">
-                ATEMPORAL • ELEGANTE • ACCESIBLE
-              </span>
+            {/* Brand Official Logo Emblem Badge */}
+            <div className="flex items-center gap-4">
+              <div className="relative w-20 h-20 sm:w-24 sm:h-24 lg:w-28 lg:h-28 rounded-full overflow-hidden shadow-2xl border-2 border-[#B99663] bg-[#1A1918] shrink-0 hover:scale-105 transition-transform duration-500">
+                <img
+                  src="/images/logo.jpg"
+                  alt="My Boutique More Logo"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-[#FDFBF7] border border-[#DCCFBD] w-fit shadow-xs">
+                <Sparkles className="w-3.5 h-3.5 text-[#B99663]" />
+                <span className="text-[10px] sm:text-[11px] uppercase tracking-[0.25em] font-semibold text-[#292725]">
+                  ATEMPORAL • ELEGANTE • ACCESIBLE
+                </span>
+              </div>
             </div>
 
             {/* Headline */}

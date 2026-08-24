@@ -30,14 +30,23 @@ export const MobileMenuDrawer: React.FC = () => {
       <div className="fixed inset-y-0 left-0 max-w-xs w-full bg-[#FDFBF7] shadow-2xl flex flex-col justify-between overflow-y-auto animate-fade-in border-r border-[#DCCFBD]">
         {/* Drawer Header */}
         <div>
-          <div className="p-5 border-b border-[#DCCFBD] flex items-center justify-between bg-[#F7F2EA]">
-            <div>
-              <span className="font-editorial text-xl font-semibold tracking-wider text-[#292725]">
-                MY BOUTIQUE MORE
-              </span>
-              <span className="text-[8px] uppercase tracking-[0.25em] text-[#A99B8B] block mt-0.5">
-                Atemporal • Elegante
-              </span>
+          <div className="p-4 border-b border-[#DCCFBD] flex items-center justify-between bg-[#F7F2EA]">
+            <div className="flex items-center gap-3">
+              <div className="w-12 h-12 rounded-full overflow-hidden border border-[#B99663] bg-[#1A1918] shrink-0">
+                <img
+                  src="/images/logo.jpg"
+                  alt="My Boutique More Logo"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div>
+                <span className="font-editorial text-lg font-bold tracking-wider text-[#292725] block leading-tight">
+                  MY BOUTIQUE MORE
+                </span>
+                <span className="text-[8px] uppercase tracking-[0.25em] text-[#A99B8B] block">
+                  Atemporal • Elegante
+                </span>
+              </div>
             </div>
             <button
               onClick={closeMobileMenu}
