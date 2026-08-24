@@ -1,5 +1,8 @@
-# 👗 MY BOUTIQUE MORE
-> *“Atemporal • Elegante • Accesible”*
+<div align="center">
+  <img src="public/images/logo.jpg" alt="My Boutique More Logo Oficial" width="220" style="border-radius: 50%; border: 3px solid #B99663; margin-bottom: 15px;" />
+  <h1>👗 MY BOUTIQUE MORE</h1>
+  <p><em>“Atemporal • Elegante • Accesible”</em></p>
+</div>
 
 Plataforma e-commerce completa y responsive de alta gama para la marca femenina mexicana **My Boutique More**. Diseñada con estética editorial de revista de moda, tonos cálidos, tipografía refinada y experiencia de compra optimizada tanto para dispositivos móviles como escritorio.
 
