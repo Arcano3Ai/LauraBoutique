@@ -17,7 +17,7 @@ export const NewsletterSection: React.FC = () => {
     }
 
     setSubscribed(true);
-    toast('¡Bienvenida a la comunidad de Laura Boutique!', {
+    toast('¡Bienvenida a la comunidad de My Boutique More!', {
       type: 'success',
       submessage: 'Te enviamos tu código de 10% de bienvenida a tu correo.'
     });
@@ -35,7 +35,7 @@ export const NewsletterSection: React.FC = () => {
 
         {/* Title & Subtitle */}
         <h2 className="font-editorial text-3xl sm:text-4xl lg:text-5xl text-[#292725] font-normal tracking-tight mb-3">
-          FORMA PARTE DE LAURA
+          FORMA PARTE DE MY BOUTIQUE MORE
         </h2>
         <p className="text-xs sm:text-sm text-[#A99B8B] max-w-md mx-auto leading-relaxed mb-8 font-light">
           Recibe primero nuestras nuevas colecciones, promociones y consejos de estilo directamente en tu bandeja.

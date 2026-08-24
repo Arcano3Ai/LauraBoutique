@@ -42,7 +42,7 @@ export default function RegisterPage() {
             CREAR CUENTA
           </h1>
           <p className="text-xs text-[#A99B8B] mt-1 font-light">
-            Únete a la comunidad de Laura Boutique y recibe beneficios exclusivos.
+            Únete a la comunidad de My Boutique More y recibe beneficios exclusivos.
           </p>
         </div>
 

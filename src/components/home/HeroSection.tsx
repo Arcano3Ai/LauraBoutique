@@ -71,7 +71,7 @@ export const HeroSection: React.FC = () => {
             <div className="relative aspect-4/5 sm:aspect-16/11 lg:aspect-4/3 w-full bg-[#ECE5DC] overflow-hidden shadow-xl border border-[#DCCFBD]">
               <img
                 src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&q=85&w=1600"
-                alt="Laura Boutique Campaña Atemporal"
+                alt="My Boutique More Campaña Atemporal"
                 className="w-full h-full object-cover object-top hover:scale-103 transition-transform duration-1000"
               />
 

@@ -68,7 +68,7 @@ function SuccessContent() {
               <span className="text-[#A99B8B] uppercase tracking-wider text-[10px] font-semibold block">
                 Dirección de Entrega
               </span>
-              <p className="font-semibold">{currentOrder?.shippingAddress?.fullName || 'Clienta Laura Boutique'}</p>
+              <p className="font-semibold">{currentOrder?.shippingAddress?.fullName || 'Clienta My Boutique More'}</p>
               <p className="text-[#A99B8B]">{currentOrder?.shippingAddress?.street}</p>
               <p className="text-[#A99B8B]">
                 {currentOrder?.shippingAddress?.city}, {currentOrder?.shippingAddress?.state} {currentOrder?.shippingAddress?.postalCode}

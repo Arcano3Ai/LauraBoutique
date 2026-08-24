@@ -53,7 +53,7 @@ export const ArmaTuLookSection: React.FC = () => {
             <div className="aspect-4/5 sm:aspect-16/11 w-full bg-[#ECE5DC] overflow-hidden border border-[#DCCFBD] shadow-lg group">
               <img
                 src={LOOK_BUNDLE_DATA.image}
-                alt="Laura Boutique Look Completo 01"
+                alt="My Boutique More Look Completo 01"
                 className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-1000"
               />
 

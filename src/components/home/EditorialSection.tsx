@@ -15,7 +15,7 @@ export const EditorialSection: React.FC = () => {
             <div className="aspect-3/4 sm:aspect-4/3 lg:aspect-4/5 w-full bg-[#ECE5DC] overflow-hidden border border-[#DCCFBD] shadow-xl group">
               <img
                 src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=85&w=1200"
-                alt="Laura Boutique Manifiesto Editorial"
+                alt="My Boutique More Manifiesto Editorial"
                 className="w-full h-full object-cover group-hover:scale-104 transition-transform duration-1000"
               />
             </div>

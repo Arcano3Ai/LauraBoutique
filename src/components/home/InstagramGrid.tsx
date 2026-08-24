@@ -17,7 +17,7 @@ export const InstagramGrid: React.FC = () => {
             <span>Comunidad</span>
           </div>
           <h2 className="font-editorial text-3xl sm:text-4xl text-[#292725] font-normal tracking-tight">
-            @LAURABOUTIQUE
+            @MYBOUTIQUEMORE
           </h2>
           <p className="text-xs sm:text-sm text-[#A99B8B] mt-1 font-light">
             Síguenos para inspiración diaria, ideas de combinación y lanzamientos exclusivos.
@@ -36,7 +36,7 @@ export const InstagramGrid: React.FC = () => {
             >
               <img
                 src={post.image}
-                alt="Laura Boutique Instagram Look"
+                alt="My Boutique More Instagram Look"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
               />
 

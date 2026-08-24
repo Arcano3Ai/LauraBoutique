@@ -12,7 +12,7 @@ export default function PoliticasPage() {
             Información Legal & Políticas
           </span>
           <h1 className="font-editorial text-3xl sm:text-4xl text-[#292725] font-normal">
-            POLÍTICAS DE LAURA BOUTIQUE
+            POLÍTICAS DE MY BOUTIQUE MORE
           </h1>
           <p className="text-xs sm:text-sm text-[#A99B8B] mt-1 font-light">
             Transparencia y claridad en cada paso de tu experiencia de compra.
@@ -42,7 +42,7 @@ export default function PoliticasPage() {
           <div className="text-xs text-[#292725]/80 space-y-2 leading-relaxed">
             <p>• <strong>Plazo de solicitud:</strong> Tienes hasta 30 días naturales a partir de la entrega para solicitar un cambio de talla o modelo.</p>
             <p>• <strong>Condiciones de la prenda:</strong> Las piezas deben estar nuevas, sin usar, sin lavar, sin olores y con sus etiquetas y empaques originales intactos.</p>
-            <p>• <strong>Proceso:</strong> Escríbenos a nuestro WhatsApp o a <em>pedidos@lauraboutique.mx</em> con tu número de orden para proporcionarte la guía de retorno.</p>
+            <p>• <strong>Proceso:</strong> Escríbenos a nuestro WhatsApp o a <em>pedidos@myboutiquemore.com</em> con tu número de orden para proporcionarte la guía de retorno.</p>
           </div>
         </section>
 
@@ -53,7 +53,7 @@ export default function PoliticasPage() {
             <h2 className="font-editorial text-2xl">Aviso de Privacidad</h2>
           </div>
           <div className="text-xs text-[#292725]/80 space-y-2 leading-relaxed">
-            <p>En Laura Boutique respetamos tu privacidad. Tus datos personales (nombre, dirección, teléfono y correo) son utilizados estrictamente para procesar tus compras, emitir comprobantes y coordinar la entrega de tus paquetes.</p>
+            <p>En My Boutique More respetamos tu privacidad. Tus datos personales (nombre, dirección, teléfono y correo) son utilizados estrictamente para procesar tus compras, emitir comprobantes y coordinar la entrega de tus paquetes.</p>
             <p>No compartimos ni comercializamos tu información con terceros no autorizados. Los pagos son procesados directamente por pasarelas seguras certificadas PCI-DSS.</p>
           </div>
         </section>

@@ -46,7 +46,7 @@ export default function AccountPage() {
               MI CUENTA
             </h1>
             <p className="text-xs text-[#A99B8B] mt-1">
-              Bienvenida, <strong className="text-[#292725]">{user?.name || 'Clienta Laura Boutique'}</strong> ({user?.email || 'laura@ejemplo.com'})
+              Bienvenida, <strong className="text-[#292725]">{user?.name || 'Clienta My Boutique More'}</strong> ({user?.email || 'clienta@ejemplo.com'})
             </p>
           </div>
 

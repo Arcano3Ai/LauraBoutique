@@ -7,7 +7,7 @@ export const WhatsAppFloat: React.FC = () => {
   const [showTooltip, setShowTooltip] = useState(true);
 
   const message = encodeURIComponent(
-    'Hola Laura Boutique 👋 Me gustaría recibir ayuda para elegir una prenda.'
+    'Hola My Boutique More 👋 Me gustaría recibir ayuda para elegir una prenda.'
   );
   const whatsappUrl = `https://wa.me/525500000000?text=${message}`;
 
@@ -37,7 +37,7 @@ export const WhatsAppFloat: React.FC = () => {
         href={whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Contactar por WhatsApp a Laura Boutique"
+        aria-label="Contactar por WhatsApp a My Boutique More"
         className="w-13 h-13 md:w-14 md:h-14 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-105 hover:bg-[#20bd5a] transition-all duration-300 relative"
       >
         <MessageCircle className="w-7 h-7 fill-white text-[#25D366]" />

@@ -36,7 +36,7 @@ export const BestSellersSection: React.FC = () => {
             </div>
 
             <h2 className="font-editorial text-3xl sm:text-4xl text-[#292725] font-normal tracking-tight">
-              LOS FAVORITOS DE LAURA
+              LOS FAVORITOS DE MY BOUTIQUE MORE
             </h2>
             <p className="text-xs sm:text-sm text-[#A99B8B] mt-1 font-light">
               Las piezas que nuestras clientas están amando y repitiendo.

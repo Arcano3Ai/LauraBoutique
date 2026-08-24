@@ -33,7 +33,7 @@ export const MobileMenuDrawer: React.FC = () => {
           <div className="p-5 border-b border-[#DCCFBD] flex items-center justify-between bg-[#F7F2EA]">
             <div>
               <span className="font-editorial text-xl font-semibold tracking-wider text-[#292725]">
-                LAURA BOUTIQUE
+                MY BOUTIQUE MORE
               </span>
               <span className="text-[8px] uppercase tracking-[0.25em] text-[#A99B8B] block mt-0.5">
                 Atemporal • Elegante

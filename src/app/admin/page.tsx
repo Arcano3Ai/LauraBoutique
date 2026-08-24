@@ -58,7 +58,7 @@ export default function AdminDashboardPage() {
       sizes: ['XS', 'S', 'M', 'L', 'XL'],
       inStock: true,
       stockCount: parseInt(newProdStock) || 20,
-      description: `${newProdName} diseñada bajo la filosofía atemporal de Laura Boutique.`,
+      description: `${newProdName} diseñada bajo la filosofía atemporal de My Boutique More.`,
       composition: '80% Lino, 20% Algodón Peinado',
       careInstructions: ['Lavar en frío', 'No usar blanqueador']
     };
@@ -462,7 +462,7 @@ export default function AdminDashboardPage() {
             <div className="max-w-xl bg-[#F7F2EA] p-6 border border-[#DCCFBD] space-y-4 text-xs">
               <div>
                 <label className="font-semibold block mb-1">Nombre Comercial de la Tienda</label>
-                <input type="text" defaultValue="Laura Boutique" className="w-full p-2 bg-white border border-[#DCCFBD]" />
+                <input type="text" defaultValue="My Boutique More" className="w-full p-2 bg-white border border-[#DCCFBD]" />
               </div>
               <div>
                 <label className="font-semibold block mb-1">Umbral de Envío Gratis (MXN)</label>

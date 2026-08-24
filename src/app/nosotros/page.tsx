@@ -17,7 +17,7 @@ export default function NosotrosPage() {
             ELEGANCIA QUE SÍ PUEDES <span className="italic text-[#B99663]">PERMITIRTE</span>
           </h1>
           <p className="text-xs sm:text-sm text-[#A99B8B] font-light leading-relaxed">
-            Laura Boutique nació para romper el mito de que vestir con distinción y prendas atemporales debe ser exclusivo o inaccesible.
+            My Boutique More nació para romper el mito de que vestir con distinción y prendas atemporales debe ser exclusivo o inaccesible.
           </p>
         </div>
 
@@ -25,7 +25,7 @@ export default function NosotrosPage() {
         <div className="aspect-16/9 sm:aspect-21/9 w-full bg-[#ECE5DC] overflow-hidden border border-[#DCCFBD] shadow-xl">
           <img
             src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=85&w=1600"
-            alt="Laura Boutique Taller y Confección"
+            alt="My Boutique More Taller y Confección"
             className="w-full h-full object-cover"
           />
         </div>
@@ -37,7 +37,7 @@ export default function NosotrosPage() {
               Prendas para vivir, combinar y repetir
             </h3>
             <p>
-              En un mundo dominado por modas efímeras y tendencias que caducan en semanas, en Laura Boutique apostamos por la belleza de lo atemporal. Diseñamos piezas que celebran la feminidad con cortes limpios, paletas neutras y caídas nobles que favorecen a la mujer contemporánea en México.
+              En un mundo dominado por modas efímeras y tendencias que caducan en semanas, en My Boutique More apostamos por la belleza de lo atemporal. Diseñamos piezas que celebran la feminidad con cortes limpios, paletas neutras y caídas nobles que favorecen a la mujer contemporánea en México.
             </p>
             <p>
               Creemos firmemente en el poder de un buen lino, una viscosa fluida o un corte sastre estructurado para transformar tu seguridad desde la mañana en la oficina hasta una cena especial.
@@ -57,7 +57,7 @@ export default function NosotrosPage() {
           </div>
         </div>
 
-        {/* 3 Pillars of Laura Boutique */}
+        {/* 3 Pillars of My Boutique More */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-6 border-t border-[#DCCFBD]">
           <div className="p-6 bg-[#F7F2EA] border border-[#DCCFBD] text-center space-y-2">
             <span className="font-editorial text-xl font-bold text-[#292725] block">Atemporal</span>

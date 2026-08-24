@@ -25,24 +25,24 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: 'Laura Boutique | Atemporal • Elegante • Accesible',
+  title: 'My Boutique More | Atemporal • Elegante • Accesible',
   description:
-    'Boutique mexicana de ropa femenina contemporánea. Vestidos, blusas, pantalones y sets elegantes diseñados para tu día a día sin gastar una fortuna. Envíos a todo México.',
+    'Boutique mexicana de moda y ropa femenina contemporánea. Vestidos, blusas, pantalones, calzado y sets elegantes diseñados para tu día a día sin gastar una fortuna. Envíos a todo México.',
   keywords: [
-    'Laura Boutique',
+    'My Boutique More',
     'Ropa mujer México',
     'Moda atemporal',
     'Vestidos elegantes',
     'Boutique mexicana',
-    'Lino',
+    'Calzado y accesorios',
     'Ropa formal y casual'
   ],
   openGraph: {
-    title: 'Laura Boutique | Atemporal • Elegante • Accesible',
+    title: 'My Boutique More | Atemporal • Elegante • Accesible',
     description:
       'Moda atemporal, femenina y elegante para todos los días. Diseños versátiles para la mujer mexicana contemporánea.',
-    url: 'https://lauraboutique.mx',
-    siteName: 'Laura Boutique',
+    url: 'https://myboutiquemore.com',
+    siteName: 'My Boutique More',
     locale: 'es_MX',
     type: 'website'
   }

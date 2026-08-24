@@ -1,7 +1,7 @@
-# 👗 LAURA BOUTIQUE
+# 👗 MY BOUTIQUE MORE
 > *“Atemporal • Elegante • Accesible”*
 
-Plataforma e-commerce completa y responsive de alta gama para la marca femenina mexicana **Laura Boutique**. Diseñada con estética editorial de revista de moda, tonos cálidos, tipografía refinada y experiencia de compra optimizada tanto para dispositivos móviles como escritorio.
+Plataforma e-commerce completa y responsive de alta gama para la marca femenina mexicana **My Boutique More**. Diseñada con estética editorial de revista de moda, tonos cálidos, tipografía refinada y experiencia de compra optimizada tanto para dispositivos móviles como escritorio.
 
 ---
 

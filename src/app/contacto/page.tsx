@@ -48,7 +48,7 @@ export default function ContactoPage() {
                 ¿Necesitas respuesta inmediata? Nuestro equipo de estilistas te atiende de manera directa por WhatsApp.
               </p>
               <a
-                href="https://wa.me/525500000000?text=Hola%20Laura%20Boutique%20%F0%9F%91%8B%20Me%20gustar%C3%ADa%20recibir%20ayuda%20para%20elegir%20una%20prenda."
+                href="https://wa.me/525500000000?text=Hola%20My%20Boutique%20More%20%F0%9F%91%8B%20Me%20gustar%C3%ADa%20recibir%20ayuda%20para%20elegir%20una%20prenda."
                 target="_blank"
                 rel="noreferrer"
                 className="btn-editorial-gold w-full text-center inline-flex items-center justify-center gap-2 text-xs"
@@ -73,8 +73,8 @@ export default function ContactoPage() {
                 <Mail className="w-4 h-4 text-[#B99663] shrink-0 mt-0.5" />
                 <div>
                   <strong className="block text-[11px] uppercase tracking-wider">Correo Electrónico</strong>
-                  <p className="text-[#A99B8B]">contacto@lauraboutique.mx</p>
-                  <p className="text-[#A99B8B]">pedidos@lauraboutique.mx</p>
+                  <p className="text-[#A99B8B]">contacto@myboutiquemore.com</p>
+                  <p className="text-[#A99B8B]">pedidos@myboutiquemore.com</p>
                 </div>
               </div>
 

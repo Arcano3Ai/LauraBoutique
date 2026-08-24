@@ -55,7 +55,7 @@ export default function FAQPage() {
             PREGUNTAS FRECUENTES
           </h1>
           <p className="text-xs sm:text-sm text-[#A99B8B] mt-1 font-light">
-            Todo lo que necesitas saber sobre compras, envíos, cambios y cuidados en Laura Boutique.
+            Todo lo que necesitas saber sobre compras, envíos, cambios y cuidados en My Boutique More.
           </p>
         </div>
 
@@ -111,7 +111,7 @@ export default function FAQPage() {
             Nuestro equipo de asesoría de imagen y atención a clientas está disponible para ayudarte en tiempo real.
           </p>
           <a
-            href="https://wa.me/525500000000?text=Hola%20Laura%20Boutique%20%F0%9F%91%8B%20Me%20gustar%C3%ADa%20recibir%20ayuda%20para%20elegir%20una%20prenda."
+            href="https://wa.me/525500000000?text=Hola%20My%20Boutique%20More%20%F0%9F%91%8B%20Me%20gustar%C3%ADa%20recibir%20ayuda%20para%20elegir%20una%20prenda."
             target="_blank"
             rel="noreferrer"
             className="btn-editorial-gold inline-flex items-center gap-2"

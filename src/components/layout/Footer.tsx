@@ -17,7 +17,7 @@ export const Footer: React.FC = () => {
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" className="inline-block">
               <span className="font-editorial text-2xl sm:text-3xl font-semibold tracking-wider text-[#FDFBF7] block leading-none">
-                LAURA BOUTIQUE
+                MY BOUTIQUE MORE
               </span>
               <span className="text-[10px] uppercase tracking-[0.3em] text-[#B99663] font-medium block mt-1.5">
                 Atemporal • Elegante • Accesible
@@ -33,7 +33,7 @@ export const Footer: React.FC = () => {
                 href="https://instagram.com"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="Instagram de Laura Boutique"
+                aria-label="Instagram de My Boutique More"
                 className="w-8 h-8 rounded-full border border-[#3D3A37] flex items-center justify-center text-[#DCCFBD] hover:text-[#B99663] hover:border-[#B99663] transition-colors"
               >
                 <InstagramIcon className="w-4 h-4" />
@@ -42,23 +42,23 @@ export const Footer: React.FC = () => {
                 href="https://facebook.com"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="Facebook de Laura Boutique"
+                aria-label="Facebook de My Boutique More"
                 className="w-8 h-8 rounded-full border border-[#3D3A37] flex items-center justify-center text-[#DCCFBD] hover:text-[#B99663] hover:border-[#B99663] transition-colors"
               >
                 <FacebookIcon className="w-4 h-4" />
               </a>
               <a
-                href="https://wa.me/525500000000?text=Hola%20Laura%20Boutique%20%F0%9F%91%8B%20Me%20gustar%C3%ADa%20recibir%20ayuda%20para%20elegir%20una%20prenda."
+                href="https://wa.me/525500000000?text=Hola%20My%20Boutique%20More%20%F0%9F%91%8B%20Me%20gustar%C3%ADa%20recibir%20ayuda%20para%20elegir%20una%20prenda."
                 target="_blank"
                 rel="noreferrer"
-                aria-label="WhatsApp Laura Boutique"
+                aria-label="WhatsApp My Boutique More"
                 className="w-8 h-8 rounded-full border border-[#3D3A37] flex items-center justify-center text-[#DCCFBD] hover:text-[#B99663] hover:border-[#B99663] transition-colors"
               >
                 <MessageCircle className="w-4 h-4" />
               </a>
               <a
-                href="mailto:contacto@lauraboutique.mx"
-                aria-label="Correo de Laura Boutique"
+                href="mailto:contacto@myboutiquemore.com"
+                aria-label="Correo de My Boutique More"
                 className="w-8 h-8 rounded-full border border-[#3D3A37] flex items-center justify-center text-[#DCCFBD] hover:text-[#B99663] hover:border-[#B99663] transition-colors"
               >
                 <Mail className="w-4 h-4" />
@@ -149,10 +149,10 @@ export const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Column 3: LAURA BOUTIQUE & CONTACTO */}
+          {/* Column 3: MY BOUTIQUE MORE & CONTACTO */}
           <div>
             <h4 className="font-editorial text-base tracking-wider text-[#FDFBF7] mb-4 uppercase font-normal">
-              LAURA BOUTIQUE
+              MY BOUTIQUE MORE
             </h4>
             <ul className="space-y-2.5 text-xs text-[#A99B8B] mb-6">
               <li>
@@ -183,7 +183,7 @@ export const Footer: React.FC = () => {
 
         {/* Bottom Bar with Copyright & Badges */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-[#A99B8B]">
-          <p>© 2026 Laura Boutique. Todos los derechos reservados.</p>
+          <p>© 2026 My Boutique More. Todos los derechos reservados.</p>
           <div className="flex items-center gap-4 text-[11px] text-[#DCCFBD]/80">
             <span>Tarjeta de Crédito / Débito</span>
             <span>•</span>

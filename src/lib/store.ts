@@ -237,7 +237,7 @@ export const useStore = create<StoreState>()(
           }
         ]
       },
-      login: (email, name = 'Clienta Laura Boutique') =>
+      login: (email, name = 'Clienta My Boutique More') =>
         set({
           user: {
             id: `usr-${Date.now()}`,
@@ -253,7 +253,7 @@ export const useStore = create<StoreState>()(
         const newOrder: Order = {
           ...orderData,
           id: `ord-${Date.now()}`,
-          orderNumber: `LB-${Math.floor(10000 + Math.random() * 90000)}`,
+          orderNumber: `MBM-${Math.floor(10000 + Math.random() * 90000)}`,
           date: new Date().toISOString().split('T')[0]
         };
         set((state) => ({
@@ -270,7 +270,7 @@ export const useStore = create<StoreState>()(
       }
     }),
     {
-      name: 'laura-boutique-storage',
+      name: 'my-boutique-more-storage',
       storage: createJSONStorage(() => localStorage),
       partialize: (state) => ({
         cart: state.cart,

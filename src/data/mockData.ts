@@ -448,7 +448,7 @@ export const TESTIMONIALS_DATA = [
     name: 'Alejandra M.',
     city: 'Ciudad de México',
     rating: 5,
-    comment: 'Todo llegó precioso y el vestido me quedó perfecto. El envío a CDMX tardó solo 2 días. Sin duda seré clienta frecuente de Laura Boutique.'
+    comment: 'Todo llegó precioso y el vestido me quedó perfecto. El envío a CDMX tardó solo 2 días. Sin duda seré clienta frecuente de My Boutique More.'
   }
 ];
 

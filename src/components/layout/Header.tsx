@@ -79,7 +79,7 @@ export const Header: React.FC = () => {
           <div className="flex-1 lg:flex-none text-center lg:text-left">
             <Link href="/" className="inline-block group text-center">
               <span className="font-editorial text-2xl sm:text-3xl lg:text-3xl font-semibold tracking-wider text-[#292725] block group-hover:text-[#B99663] transition-colors leading-none">
-                LAURA BOUTIQUE
+                MY BOUTIQUE MORE
               </span>
               <span className="text-[9px] sm:text-[10px] uppercase tracking-[0.3em] text-[#A99B8B] font-medium block mt-1">
                 Atemporal • Elegante • Accesible

@@ -19,8 +19,8 @@ export default function LoginPage() {
     e.preventDefault();
     if (!email.trim()) return;
 
-    login(email, 'Clienta Laura Boutique');
-    toast('¡Bienvenida de vuelta a Laura Boutique!', { type: 'success' });
+    login(email, 'Clienta My Boutique More');
+    toast('¡Bienvenida de vuelta a My Boutique More!', { type: 'success' });
     router.push('/account');
   };
 
@@ -31,7 +31,7 @@ export default function LoginPage() {
         {/* Header */}
         <div className="text-center mb-8">
           <span className="text-[10px] uppercase tracking-[0.3em] text-[#B99663] font-semibold block mb-1">
-            Laura Boutique
+            My Boutique More
           </span>
           <h1 className="font-editorial text-3xl text-[#292725] font-normal">
             INICIAR SESIÓN
